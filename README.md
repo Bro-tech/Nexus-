@@ -52,3 +52,20 @@ A safe, isolated environment where users (or evaluators) can explore Nexus's fea
 - **Auth & Backend Services:** Firebase for authentication and supporting backend functionality
 
 ## Project Structure
+
+src/
+
+├── components/       # Reusable UI building blocks (cards, modals, inputs, sidebar, etc.)
+
+├── context/          # React context providers (auth, theme)
+
+├── lib/              # Core utilities (storage, firebase config, helpers)
+
+├── pages/            # Route-level pages (auth, dashboard, doctor views, landing page)
+
+├── views/            # Feature views (AI chat, telehealth, mood journal, wellness hub, etc.)
+
+├── videos/           # Static media assets
+
+└── main.jsx          # App entry point
+
